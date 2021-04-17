@@ -1,0 +1,35 @@
+.top{
+    background: #ffffff;
+    padding: 10px 40px;
+    top:0;
+    left:0;
+    right:0;
+    position: fixed;
+    .header-ui {
+        max-width: 720px;
+        margin: 0px auto;
+
+    }
+}
+
+.shadow-10 {
+    box-shadow: 0px 0px 10px gainsboro;
+}
+
+.name{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 0.3em;
+}
+
+.profile-img {
+    float: right;
+    cursor: pointer;
+    .profile{
+        width:32px;
+        height:32px;
+        border-radius: 15px;
+    }
+}
