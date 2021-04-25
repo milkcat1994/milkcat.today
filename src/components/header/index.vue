@@ -1,7 +1,7 @@
 <template>
   <div id="header" class="top shadow-10">
     <div class="header-ui">
-        <div class="name">
+        <div class="name" v-on:click="moveMilkcatMain">
             Milkcat
         </div>
 
@@ -21,6 +21,9 @@ export default {
   methods: {
     moveMilkcatGitHub: function () {
       window.open('https://github.com/milkcat1994', '_blank')
+    },
+    moveMilkcatMain: function () {
+      this.$router.push('/')
     },
     moveAbout: function () {
       this.$router.push('about')
