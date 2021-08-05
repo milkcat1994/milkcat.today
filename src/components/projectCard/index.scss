@@ -1,14 +1,25 @@
-.border-b2{
-    border: 1px solid black;
+.card {
+    min-width: 220px;
+    height: 250px;
+}
+
+.border-b2 {
+    // border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 250px;
+}
+
+
+
+.card-img {
+    height: 250px;
     border-radius: 15px;
 }
 
-
-.card {
-    min-width: 220px;
-    height: 300px;
+.border-b2:hover{
+    box-shadow: 0px 0px 5px gray;
 }
-
 .dp-block {
     display: inline-block;
 }
