@@ -1,5 +1,6 @@
 <template>
   <div id="main">
+      <Dividor title="Project" />
       <ProjectCard v-for="(project, key) in projects" v-bind:key="key"
       v-bind:pjt="project"
       />
@@ -8,6 +9,7 @@
 
 <script>
 import ProjectCard from '@/components/projectCard/index.vue'
+import Dividor from '@/components/main/dividor/dividor.vue'
 
 export default {
   data () {
@@ -32,7 +34,8 @@ export default {
     }
   },
   components: {
-    ProjectCard
+    ProjectCard,
+    Dividor
   }
 }
 </script>
