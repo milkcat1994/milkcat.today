@@ -1,8 +1,18 @@
 <template>
-  <div class="dp-block card p-10">
-    <div class="border-b2"
-    v-on:click="moveProjectGitHub">
-      <img :src="require('@/assets/pjt/'+project.num+'.png')" class="card-img" alt="">
+  <div class="card p-10">
+    <div class="dp-inline-block project-card-left">
+      <div class="border-b2"
+      v-on:click="moveProjectGitHub">
+        <img :src="require('@/assets/pjt/'+project.num+'.png')" class="card-img" alt="Project Thumbnail">
+      </div>
+      <span>
+        {{project.name}}
+      </span>
+    </div>
+    <div class ="dp-inline-block project-card-right">
+      <span>
+        {{project.info}}
+      </span>
     </div>
   </div>
 </template>

@@ -1,15 +1,13 @@
 .card {
-    min-width: 220px;
-    height: 250px;
+    min-width: 250px;
+    margin: 0.5em 0px;
 }
 
 .border-b2 {
     // border: 1px solid black;
     border-radius: 15px;
-    cursor: pointer;
     height: 250px;
 }
-
 
 
 .card-img {
@@ -17,10 +15,32 @@
     border-radius: 15px;
 }
 
-.border-b2:hover{
+.project-card-left {
+    span{
+        display: block;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 0.5em;
+    }
+}
+
+.card:hover{
+    cursor: pointer;
     box-shadow: 0px 0px 5px gray;
 }
-.dp-block {
+
+.project-card-right{
+    width: 250px;
+    position: relative;
+    bottom: 150px;
+    span{
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+.dp-inline-block {
     display: inline-block;
 }
 
