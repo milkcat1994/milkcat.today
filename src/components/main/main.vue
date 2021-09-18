@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import ProjectCard from '@/components/projectCard/index.vue'
+import ProjectCard from '@/components/projectCard/projectCard.vue'
 import Dividor from '@/components/main/dividor/dividor.vue'
 
 export default {

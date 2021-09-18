@@ -22,13 +22,11 @@ export default {
     moveProjectGitHub: function () {
       window.open(this.project.url)
     }
-  },
-  created () {
   }
 }
 </script>
 
 <style lang="scss" scoped>
-@import './index.scss';
+@import './projectCard.scss';
 
-</style>>
+</style>
