@@ -2,8 +2,7 @@
   <div class="dp-block card p-10">
     <div class="border-b2"
     v-on:click="moveProjectGitHub">
-      <!-- <img v-bind:src="project.img" class="card-img"> -->
-      <img :src="require('@/assets/pjt/'+project.num+'.png')" class="card-img">
+      <img :src="require('@/assets/pjt/'+project.num+'.png')" class="card-img" alt="">
     </div>
   </div>
 </template>
