@@ -5,12 +5,12 @@
       v-on:click="moveProjectGitHub">
         <img :src="require('@/assets/pjt/'+project.num+'.png')" class="card-img" alt="Project Thumbnail">
       </div>
-      <span>
+      <span class="dp-block">
         {{project.name}}
       </span>
     </div>
     <div class ="dp-inline-block project-card-right">
-      <span>
+      <span class=".dp-inline-block">
         {{project.info}}
       </span>
     </div>
