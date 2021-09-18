@@ -1,7 +1,7 @@
 <template>
   <div class="project-card">
     <div class="card p-10">
-      <div class="dp-inline-block project-card-left">
+      <div class="dp-inline-block card-left">
         <div class="border-b2"
         v-on:click="moveProjectGitHub">
           <img :src="require('@/assets/pjt/'+project.num+'.png')" class="card-img" alt="Project Thumbnail">
@@ -10,7 +10,7 @@
           {{project.name}}
         </span>
       </div>
-      <div class ="dp-inline-block project-card-right">
+      <div class ="dp-inline-block card-right">
         <span class=".dp-inline-block">
           {{project.info}}
         </span>
