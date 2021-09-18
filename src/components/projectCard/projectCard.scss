@@ -1,0 +1,57 @@
+.card {
+    min-width: 250px;
+    margin: 0.5em 0px;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.project-card::after{
+    content: "";
+    display:block;
+    height: 0.2em;
+
+    background-image: linear-gradient(to right, rgb(195, 198, 192), rgb(191, 210, 214), rgb(255, 255, 255));
+}
+
+.border-b2 {
+    border-radius: 15px;
+    height: 250px;
+}
+
+.card-img {
+    height: 250px;
+    border-radius: 15px;
+}
+
+.card-left {
+    span{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 0.5em;
+    }
+}
+
+.card-right{
+    width: 250px;
+    position: relative;
+    bottom: 150px;
+    span{
+        text-align: center;
+    }
+}
+
+.dp-block {
+    display: block;
+}
+
+.dp-inline-block {
+    display: inline-block;
+}
+
+.p-10 {
+    padding: 10px 10px;
+}
