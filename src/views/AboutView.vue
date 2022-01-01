@@ -1,23 +1,22 @@
 <template>
-  <div class="home">
-    <Main/>
+  <div class="about">
+    <About/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import Main from '@/components/main/main.vue'
+import About from '@/components/about/about.vue'
 
 export default {
-  name: 'Home',
+  name: 'AboutView',
   components: {
-    Main
+    About
   }
 }
 </script>
 
 <style lang="scss" scoped>
-.home{
+.about {
   margin-top: 60px;
 }
 </style>
