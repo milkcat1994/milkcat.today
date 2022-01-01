@@ -26,13 +26,13 @@ export default {
       this.$router.push('/')
     },
     moveAbout: function () {
-      this.$router.push('about')
+      this.$router.push('/about')
     }
   }
 }
 </script>
 
 <style lang="scss" scoped>
-@import './index.scss';
+@import './header.scss';
 
 </style>>
